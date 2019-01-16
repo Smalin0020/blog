@@ -20,6 +20,6 @@ git remote add origin https://github.com/Smalin0020/blog.git
 #  origin master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Smalin0020/gh-pages.git master:gh-pages
+git push -f git@github.com:Smalin0020/blog.git master:gh-pages
 
 cd -
