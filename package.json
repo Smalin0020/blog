@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "vuepress dev",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "gitalk": "^1.4.0"
+  }
+}
