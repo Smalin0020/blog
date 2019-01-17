@@ -4,6 +4,7 @@
     "deploy": "bash deploy.sh"
   },
   "dependencies": {
-    "gitalk": "^1.4.0"
+    "gitalk": "^1.4.0",
+    "vuepress": "^0.11.0"
   }
 }
