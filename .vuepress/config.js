@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Smalin',
     description: 'Just playing around',
-    base: '/myBlog/',
+    // base: '/myBlog/',
     themeConfig: {
       lastUpdated: 'Last Updated', // string | boolean
         // 设置导航菜单
@@ -45,6 +45,14 @@ module.exports = {
             ]
           },
           {
+            title: 'git',
+            children: [
+              '../git/git.md',
+              '../git/gitDocument.md',
+              '../git/github.md',
+            ]
+          },
+          {
             title: 'WebGL',
             children: [
               '../WebGL/Word2Vec.md',
@@ -61,10 +69,8 @@ module.exports = {
             title: 'Tools',
             // collapsable: false,
             children: [
-              '../tools/git.md',
               '../tools/vsCode.md',
-              '../tools/MacTools.md',
-              '../tools/gitDocument.md'
+              '../tools/MacTools.md'
             ]
           },
           // {
