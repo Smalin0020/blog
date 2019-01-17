@@ -1,21 +1,7 @@
 module.exports = {
     title: 'Smalin',
     description: 'Just playing around',
-    base: '/gh-pages/',
-    // locales: {
-    //   // 键名是该语言所属的子路径
-    //   // 作为特例，默认语言可以使用 '/' 作为其路径。
-    //   '/': {
-    //     lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-    //     title: 'VuePress',
-    //     description: 'Vue-powered Static Site Generator'
-    //   },
-    //   '/zh/': {
-    //     lang: 'zh-CN',
-    //     title: 'VuePress',
-    //     description: 'Vue 驱动的静态网站生成器'
-    //   }
-    // },
+    base: '/myBlog/',
     themeConfig: {
       lastUpdated: 'Last Updated', // string | boolean
         // 设置导航菜单
@@ -23,7 +9,6 @@ module.exports = {
           { text: 'Home', link: '/' },
           { text: 'GitHub', link: 'https://github.com/Smalin0020' },
           { text: 'Resume', link: 'https://smalin0020.github.io/Smalin/' }
-          // { text: 'External', link: 'https://google.com' },
         ],
         // 设置侧边栏
         sidebar: [
@@ -82,13 +67,6 @@ module.exports = {
               '../tools/gitDocument.md'
             ]
           },
-          // {
-          //   title: 'Developer essays',
-          //   // collapsable: false,
-          //   children: [
-          //     '../develop/ElementUiSummarize.md',
-          //   ]
-          // },
           // {
           //   title: 'Web前端面试',
           //   // collapsable: false,

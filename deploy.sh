@@ -15,11 +15,10 @@ git add -A
 git commit -m 'deploy'
 #git remote add origin https://github.com/Smalin0020/blog.git
 # 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:Smalin0020/Smalin0020.github.io.git master
+# git push -f git@github.com:smalin0020/myBlog.git master
 # git push -f origin master
-#  origin master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Smalin0020/myBlog.git master:gh-pages
+git push -f git@github.com:smalin0020/myBlog.git master:gh-pages
 
 cd -
