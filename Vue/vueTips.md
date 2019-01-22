@@ -66,4 +66,29 @@ data() {
 }
 ```
 
+## 如何在 Vue 全局注册函数
+
+在 utils 文件夹下新建 `base.js`，写入以下代码
+
+``` js
+exports.install = function(Vue, options) {
+  Vue.prototype.testFunction = function() {
+    alert('执行成功');
+  }
+}
+```
+
+在 `main.js` 下引入全局方法文件
+
+``` js
+import base from '@/utils/base.js'
+Vue.use(base)
+```
+
+之后在任意组件下直接调用该方法即可
+
+```
+this.testFunction()
+```
+
 ## 随时补充
