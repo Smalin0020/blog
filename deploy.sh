@@ -5,10 +5,10 @@ set -e
 vuepress build
 
 # 进入生成的文件夹
-cd .vuepress/dist
+sudo cd .vuepress/dist
 
 # 如果是发布到自定义域名
-echo 'smalin.cn' > CNAME
+sudo echo 'smalin.cn' > CNAME
 
 sudo git init
 sudo git add -A
