@@ -62,32 +62,32 @@
 
 - 中文插件
 
-`Chinese (Simplified) Language Pack for Visual Studio Code`
+### `Chinese (Simplified) Language Pack for Visual Studio Code`
 
 - 变量起名神器
 
-`Codelf`
+### `Codelf`
 
 - 自动将px转换成rem单位
 
-`cssrem`
+### `cssrem`
 
 ![cssrem](./img/cssrem.gif)
 
 - 将相同的括号换成对应的颜色
 
-`Bracket Pair Colorizer`
+### `Bracket Pair Colorizer`
 
 ![cssrem](./img/example.png)
 
 - 调试器，类似谷歌开发者工具，可以在vscode中调试js代码
 
-`Debugger for Chrome`
+### `Debugger for Chrome`
 
 - ESLint 语法校验
 
-`ESLint`
+### `ESLint`
 
 - Vetur，Vue开发者必备
 
-`Vetur`
+### `Vetur`

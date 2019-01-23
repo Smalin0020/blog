@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "vuepress dev",
+    "serve": "vuepress dev",
     "deploy": "bash deploy.sh"
   },
   "dependencies": {
