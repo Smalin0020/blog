@@ -63,7 +63,8 @@ module.exports = {
             title: 'Linux',
             children: [
               '../Linux/Linux.md',
-              '../Linux/python.md'
+              '../Linux/python.md',
+              '../Linux/Jenkins.md'
             ]
           },
           {
