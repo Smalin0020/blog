@@ -17,7 +17,8 @@ module.exports = {
             // collapsable: false,
             children: [
               '../HtmlCss/rem.md',
-              '../HtmlCss/flex.md'
+              '../HtmlCss/flex.md',
+              '../HtmlCss/API.md'
             ]
           },
           {
@@ -62,7 +63,8 @@ module.exports = {
             title: 'Linux',
             children: [
               '../Linux/Linux.md',
-              '../Linux/python.md'
+              '../Linux/python.md',
+              '../Linux/Jenkins.md'
             ]
           },
           {
