@@ -44,6 +44,9 @@ $ vim /etc/default/jenkins
 
 # 配置文件 2 
 $ vim /etc/init.d/jenkins
+
+# 重启配置
+$ systemctl daemon-reload
 ```
 
 4. 配置 `jenkins`
