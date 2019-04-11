@@ -186,6 +186,12 @@
 
 ![Simulator](./MacToolsImg/Simulator.png)
 
+## 8. Xnip
+
+一款在 Mac 下表现良好截屏软件，可以滚动截屏等功能，截屏出来的效果非常好看哟！十分推荐！！！
+
+可以直接在 `App Store` 里面直接下载~
+
 一个国内不错的 Mac 软件网站 https://xclient.info/
 
 <script>
