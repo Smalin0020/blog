@@ -55,3 +55,39 @@ firewall-cmd --zone=public --add-port=80/tcp
 第一种情况： 在你的 nginx 配置文件下的 root 字段的路径下没有找到 index.html
 
 第二种情况： 没有用 root 用户运行，导致权限不足，也可以通过将文件夹权限提升再试
+
+## nginx部署前端SPA应用实践
+
+### nginx location 匹配规则
+
+- ~ 波浪线表示执行一个正则匹配，区分大小写
+- ~* 表示执行一个正则匹配，不区分大小写
+- ^~ 表示普通字符匹配，如果该选项匹配，只匹配该选项，不匹配别的选项，一般用来匹配目录
+- = 进行普通字符精确匹配
+- @ 定义一个命名的 location，使用在内部定向时，例如 error_page, try_files
+
+### browserHistory 模式的刷新问题
+
+browserHistory 路由模式下，使用history api可以在前端进行页面跳转，但是刷新的话，就需要对链接进行一个修复（重定向）
+可以使用 nginx 的 `try_files`
+
+```
+location / {
+        root   /root/deploy/shenyang_military_general_app;
+        index  index.html index.htm;
+      	try_files $uri $uri/ /index.html;
+}
+```
+
+## 开启 gzip 压缩
+
+```
+gzip  on;
+gzip_types    text/plain application/javascript application/x-javascript text/javascript text/xml text/css;
+```
+
+配置gzip_static
+
+```
+gzip_static on;
+```
