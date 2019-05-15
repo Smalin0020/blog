@@ -13,6 +13,7 @@ script:
 
 after_script:
   - cd .vuepress/dist
+  - ssh -T git@github.com
   - echo 'smalin.cn' > CNAME
   - git init
   - git config user.name smalin
