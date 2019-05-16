@@ -13,14 +13,13 @@ script:
 
 after_script:
   - cd .vuepress/dist
-  - ssh -T git@github.com
   - echo 'smalin.cn' > CNAME
   - git init
-  - git config user.name smalin
-  - git config user.email dinglin0020@gmail.com
+  - git config user.name "${NAME}"
+  - git config user.email "${EMAIL}"
   - git add .
   - git commit -m 'auto-deploy'
-  - git push -f git@github.com:smalin0020/myBlog.git master:gh-pages
+  - git push -f "https://${TOKEN}@${REF}" master:${BRANCH}
 
 #指定分支，只有指定的分支提交时才会运行脚本
 branches:
