@@ -6,38 +6,38 @@
 
 ### 添加 yum 源
 
-```
+``` bash
 rpm -ivh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
 ```
 
 ### 安装
 
-```
+``` bash
 yum install nginx
 ```
 
 ### 打开防火墙端口并重启
 
-```
+``` bash
 firewall-cmd --zone=public --permanent --add-service=http
 firewall-cmd --reload
 ```
 
 ### 查看防火墙打开的所有服务
 
-```
+``` bash
 firewall-cmd --list-service
 ```
 
 ### 查看当前打开的端口
 
-```
+``` bash
 firewall-cmd --zone=public --list-ports
 ```
 
 ### 打开指定端口
 
-```
+``` bash
 firewall-cmd --zone=public --add-port=80/tcp
 # (永久生效再加上 --permanent)
 ```
@@ -71,7 +71,7 @@ firewall-cmd --zone=public --add-port=80/tcp
 browserHistory 路由模式下，使用history api可以在前端进行页面跳转，但是刷新的话，就需要对链接进行一个修复（重定向）
 可以使用 nginx 的 `try_files`
 
-```
+``` conf
 location / {
         root   /root/deploy/shenyang_military_general_app;
         index  index.html index.htm;
@@ -81,13 +81,13 @@ location / {
 
 ## 开启 gzip 压缩
 
-```
+``` conf
 gzip  on;
 gzip_types    text/plain application/javascript application/x-javascript text/javascript text/xml text/css;
 ```
 
 配置gzip_static
 
-```
+``` conf
 gzip_static on;
 ```

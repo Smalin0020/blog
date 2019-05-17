@@ -21,3 +21,7 @@ branches:
 before_install:
 - openssl aes-256-cbc -K $encrypted_4f2608293004_key -iv $encrypted_4f2608293004_iv
   -in .travis/travisCI.enc -out ~/.ssh/travisCI -d
+- chmod 600 ~/.ssh/travisCI
+
+addons:
+  ssh_known_hosts: '192.30.253.112'
