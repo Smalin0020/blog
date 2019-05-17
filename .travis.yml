@@ -14,7 +14,7 @@ after_script:
 - git config user.email "${EMAIL}"
 - git add .
 - git commit -m 'auto-deploy'
-- git push -f git@github.com:smalin0020/myBlog.git master:${BRANCH}
+- git push -f -q "https://${TOKEN}@${REF}" master:${BRANCH}
 branches:
   only:
   - master
