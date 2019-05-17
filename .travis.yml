@@ -24,4 +24,4 @@ before_install:
 - chmod 600 ~/.ssh/travisCI
 
 addons:
-  ssh_known_hosts: '192.30.253.112'
+  ssh_known_hosts: 192.30.253.113
