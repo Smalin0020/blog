@@ -92,9 +92,11 @@ git mv readme readme.md
 
 `gitk`: 显示图形界面
 
-## git 查看类型
+## git 查看文件
 
-`git cat-file -t [id]`: 查看当前类型
+`git cat-file -t [id]`: 查看当前文件类型
+
+`git cat-file -p [id]`: 查看当前文件内容
 
 ## git 撤销所有未 `add` 的文件
 
