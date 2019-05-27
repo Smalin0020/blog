@@ -34,7 +34,8 @@ module.exports = {
           {
             title: 'NodeJs',
             children: [
-              '../NodeJs/Koa.md'
+              '../NodeJs/Koa.md',
+              '../NodeJs/AutoDeploy.md'
             ]
           },
           {
