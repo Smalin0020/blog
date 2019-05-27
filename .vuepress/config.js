@@ -1,6 +1,9 @@
 module.exports = {
     title: 'Smalin',
     description: 'Just playing around',
+    markdown: {
+      lineNumbers: true
+    },
     // base: '/myBlog/',
     themeConfig: {
       lastUpdated: 'Last Updated', // string | boolean
@@ -85,14 +88,14 @@ module.exports = {
           //   ]
           // },
         ],
-        pages: [
-          {
-            lastUpdated: 1524027677000,
-            path: "/HtmlCss/rem.html",
-            title: "rem适配",
-            frontmatter: {}
-          },
-        ]
+        // pages: [
+        //   {
+        //     lastUpdated: 1524027677000,
+        //     path: "/HtmlCss/rem.html",
+        //     title: "rem适配",
+        //     frontmatter: {}
+        //   },
+        // ]
         // 时间戳
         // themeConfig: {
         //   lastUpdated: 'Last Updated', // string | boolean
