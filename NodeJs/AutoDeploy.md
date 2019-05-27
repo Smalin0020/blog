@@ -7,7 +7,7 @@
 
 原理与 jenkins 类似，也是受益于 jenkins 的启发，自己写了一个 nodejs 部署工具
 
-::: TIP
+::: tip
 - 本次仓库环境是 gitee ，但是只要有 webhooks 就都可以部署
 - gitlab 有自己的 [gitlab CI](https://docs.gitlab.com/ee/ci/) 很不错的
 - github 也有 [travis-ci](https://travis-ci.org/) 等等开源自动化部署工具

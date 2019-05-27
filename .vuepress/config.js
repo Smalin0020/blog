@@ -88,17 +88,13 @@ module.exports = {
           //   ]
           // },
         ],
-        // pages: [
-        //   {
-        //     lastUpdated: 1524027677000,
-        //     path: "/HtmlCss/rem.html",
-        //     title: "rem适配",
-        //     frontmatter: {}
-        //   },
-        // ]
-        // 时间戳
-        // themeConfig: {
-        //   lastUpdated: 'Last Updated', // string | boolean
-        // }
+        pages: [
+          {
+            lastUpdated: 1524027677000,
+            path: "/HtmlCss/rem.html",
+            title: "rem适配",
+            frontmatter: {}
+          }
+        ]
       }
   }
