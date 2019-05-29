@@ -1,5 +1,25 @@
 # git使用随笔
 
+## git 修改远程仓库地址
+
+- 添加
+
+``` bash
+git remote add origin [url]
+```
+
+- 修改
+
+``` bash
+git remote set-url origin [url]
+```
+
+- 删除
+
+``` bash
+git remote rm origin
+```
+
 
 ## 工作日常git使用
 
@@ -21,8 +41,8 @@
 
 - 如果已经 clone 了，使用 git checkout 来切换分支。
 
-``` git{0}
-git clone  // 项目地址
+``` bash
+git clone  # 项目地址
 git checkout zy 
 git pull origin zy
 ```
@@ -71,25 +91,25 @@ git pull origin zy
 - 在网页中查看上传的test.sh文件已经同步到GitLab中
 
 
-``` git{0}
-// 初始化一个git 
+``` bash
+# 初始化一个git 
 git init 
 
-// 添加一个文件，文件名为 README.md
+# 添加一个文件，文件名为 README.md
 git add README.md 
 
-// 提交一个文件到暂存区，'这里是提交的注释'
+# 提交一个文件到暂存区，'这里是提交的注释'
 git commit -m 'first commit' 
 
 git remote add origin hppts://github.com/Smalin0020/dinglin.git
 
-// 推送到远程仓库
+# 推送到远程仓库
 git push -u origin master 
 ```
 
 ## 使用git一键部署vuepress到github pages
 
-``` git{0}
+``` bash
 # 确保脚本抛出遇到的错误
 set -e
 
