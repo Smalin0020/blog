@@ -6,7 +6,7 @@ module.exports = {
     },
     // base: '/myBlog/',
     themeConfig: {
-      lastUpdated: 'Last Updated', // string | boolean
+      lastUpdated: '最后修改于', // string | boolean
         // 设置导航菜单
         nav: [
           { text: 'Home', link: '/' },
@@ -46,7 +46,8 @@ module.exports = {
             children: [
               '../Vue/vueRouter.md',
               '../Vue/vueTips.md',
-              '../Vue/ElementUiSummarize.md'
+              '../Vue/ElementUiSummarize.md',
+              '../Vue/VueTest.md'
             ]
           },
           {

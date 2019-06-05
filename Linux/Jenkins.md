@@ -151,14 +151,14 @@ $ systemctl daemon-reload
 
 ![Jenkins](./image/item4.png)
 
-## 配置 webhooks
+## 配置 WebHooks
 
 - 以 `gitee` 举例🌰，其他托管平台也是可以的，例如 `gitlab` `github` 等
 - 然后去你的远程仓库找到如下所示位置
-![webhooks](./image/webhooks1.jpg)
+![WebHooks](./image/webhooks1.jpg)
 - 然后点击“添加”按钮，添加一个 webhooks 地址（就是你服务器的 post 请求地址）
-![webhooks](./image/webhooks2.jpg)
+![WebHooks](./image/webhooks2.jpg)
 - 添加成功后可以进行测试，返回的信息自己参考一下是否正确
-![webhooks](./image/webhooks2.jpg)
+![WebHooks](./image/webhooks2.jpg)
 
 以上所有内容都已经配置好咯，以后就靠你推代码就可以实现自动部署了哦，不需要去服务器在来回手动去操作啦！

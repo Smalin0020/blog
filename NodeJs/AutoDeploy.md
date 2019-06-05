@@ -130,6 +130,6 @@ app
 app.listen(3000);
 ```
 
-### webhooks 配置
+### WebHooks 配置
 
-可以取参考一下 [gitee + webhooks + jenkins 实现自动化部署](https://smalin.cn/Linux/Jenkins.html) 这个文章的最后
+可以取参考一下 [gitee + WebHooks + jenkins 实现自动化部署，配置 WebHooks](https://smalin.cn/Linux/Jenkins.html#%E9%85%8D%E7%BD%AE-webhooks)
