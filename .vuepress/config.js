@@ -10,8 +10,8 @@ module.exports = {
         // 设置导航菜单
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'GitHub', link: 'https://github.com/Smalin0020' },
-          { text: 'Resume', link: 'https://smalin0020.github.io/Smalin/' }
+          { text: 'GitHub', link: 'https://github.com/Smalin0020' }
+          // { text: 'Resume', link: 'https://smalin0020.github.io/Smalin/' }
         ],
         // 设置侧边栏
         sidebar: [
@@ -89,6 +89,7 @@ module.exports = {
           //   ]
           // },
         ],
+        
         pages: [
           {
             lastUpdated: 1524027677000,
