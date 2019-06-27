@@ -10,11 +10,11 @@
 
 ## isPrototypeOf(object)
 
-用于检查传入的对象是否是另一个对象的原型（第5章将讨论原型）。
+用于检查传入的对象是否是另一个对象的原型。
 
 ## propertyIsEnumerable(propertyName)
 
-用于检查给定的属性是否能够使用for-in语句（本章后面将会讨论）来枚举。与hasOwnProperty()方法一样，作为参数的属性名必须以字符串形式指定。
+用于检查给定的属性是否能够使用for-in语句来枚举。与hasOwnProperty()方法一样，作为参数的属性名必须以字符串形式指定。
 
 ## toLocaleString()
 
@@ -55,10 +55,12 @@
 var person = {};
 Object.defineProperty(person, "name", {
     configurable: false,
-    value: "Nicholas"
+    enumerable: true,
+    writable: true,
+    value: "Smalin"
 });
 
-alert(person.name);    //"Nicholas"
+alert(person.name);    //"Smalin"
 delete person.name;
-alert(person.name);    //"Nicholas"
+alert(person.name);    //"Smalin"
 ```

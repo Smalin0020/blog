@@ -50,6 +50,12 @@ module.exports = {
               '../Vue/VueTest.md'
             ]
           },
+          // {
+          //   title: 'React',
+          //   children: [
+          //     '../React/React.md',
+          //   ]
+          // },
           {
             title: 'git',
             children: [
