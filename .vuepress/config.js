@@ -61,6 +61,7 @@ module.exports = {
             children: [
               '../git/git.md',
               '../git/gitDocument.md',
+              `../git/gitModifyURL.md`
               // '../git/github.md',
             ]
           },
