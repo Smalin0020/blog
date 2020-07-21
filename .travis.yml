@@ -6,6 +6,7 @@ install:
   - yarn install
 script:
   - yarn build
+  - yarn generate
 deploy:
   provider: pages
   skip_cleanup: true
@@ -14,4 +15,3 @@ deploy:
   keep_history: true
   on:
     branch: master
-    
