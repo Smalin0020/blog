@@ -1,6 +1,6 @@
 module.exports = {
   theme: 'reco',
-  base: '/blog/',
+  // base: '/blog/',
   title: 'undefined',
   description: '高级前端摸鱼师',
   // 移动端优化
